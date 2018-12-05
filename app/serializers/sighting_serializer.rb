@@ -1,4 +1,4 @@
 class SightingSerializer < ActiveModel::Serializer
-  belongs_to :user
+  belongs_to :monster
   attributes :id, :entity, :lat, :long, :image, :description
 end

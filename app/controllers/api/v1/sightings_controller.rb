@@ -29,7 +29,7 @@ class Api::V1::SightingsController < ApplicationController
   private
 
   def sighting_params
-    params.require(:sighting).permit(:entity, :lat, :long, :description, :image, :user_id)
+    params.require(:sighting).permit(:entity, :lat, :long, :description, :image, :monster_id)
   end
 
 end

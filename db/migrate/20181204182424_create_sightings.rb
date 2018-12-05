@@ -6,7 +6,7 @@ class CreateSightings < ActiveRecord::Migration[5.1]
       t.integer :long
       t.string :description
       t.string :image
-      t.integer :user_id
+      t.integer :monster_id
 
       t.timestamps
     end
