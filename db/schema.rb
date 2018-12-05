@@ -10,15 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181204182424) do
+ActiveRecord::Schema.define(version: 20181205154344) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "sightings", force: :cascade do |t|
     t.string "entity"
-    t.integer "lat"
-    t.integer "long"
+    t.text "lat"
+    t.text "long"
     t.string "description"
     t.string "image"
     t.integer "user_id"
