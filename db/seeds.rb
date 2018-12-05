@@ -13,7 +13,7 @@ puts 'Archetypes found'
 puts 'Finding spooky stuff'
     s1 = Sighting.create(entity: 'dracula', image: 'https://www.biography.com/.image/t_share/MTI1NDcwOTE5OTk2MDAwMjY2/bela_lugosi_draculajpg.jpg', lat: '40.705344', long: '-74.014074', description: 'Tall, pale, pointy teeth.', monster_id: undead.id)
 
-    s2 = Sighting.create(entity: 'the devil', image: 'http://bloody-disgusting.com/wp-content/uploads/2015/03/darknesslegend.png', lat: '40.768094', long: '-73.981487', description: 'Red, big horns, looked like Tim Curry.', monster_id: demon.id)
+    s2 = Sighting.create(entity: 'the devil', image: 'http://bloody-disgusting.com/wp-content/uploads/2015/03/darknesslegend.png', lat: '40.733531', long: '-74.001746', description: 'Red, big horns, looked like Tim Curry.', monster_id: demon.id)
 
     s3 = Sighting.create(entity: 'stay puft marshmallow man', image: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Stay-puft-marshmallow-man.jpg/320px-Stay-puft-marshmallow-man.jpg', lat: '40.768094', long: '-73.981487', description: 'Gigantic marshmallow demon.', monster_id: giant.id)
 
@@ -23,7 +23,7 @@ puts 'Finding spooky stuff'
 
     s6 = Sighting.create(entity: 'werewolf', image: 'https://monsterlegacy.files.wordpress.com/2013/03/lycanstance.jpg', lat: '40.753649', long: '-73.988550', description: 'Hairy, mean-looking, scary doggo.', monster_id: mutant.id)
 
-    s7 = Sighting.create(entity: 'sewer alligator', image: 'http://www.scienceinfo.news/wp-content/uploads/2017/08/alligator_floods_houston_zoo.jpg', lat: '40.724069', long: '-74.003125', description: 'An alligator that lives in the sewer. Could be anywhere.', monster_id: mutant.id)
+    s7 = Sighting.create(entity: 'sewer alligator', image: 'http://www.scienceinfo.news/wp-content/uploads/2017/08/alligator_floods_houston_zoo.jpg', lat: '40.703807', long: '-74.004737', description: 'An alligator that lives in the sewer. Could be anywhere.', monster_id: mutant.id)
 
     s8 = Sighting.create(entity: 'headless horseman', image: 'https://www.irelandsown.ie/wp-content/uploads/2018/10/headlessinhereford.jpg', lat: '40.724069', long: '-74.003125', description: 'Usually seen in Sleepy Hollow, must be lost.', monster_id: ghost.id)
 
