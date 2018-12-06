@@ -26,6 +26,13 @@ class Api::V1::SightingsController < ApplicationController
   end
   # End update
 
+  def destroy
+    @sighting = Sighting.find(params[:id])
+    @sighting.destroy
+
+    render json: @sighting, status: :ok
+  end
+
   private
 
   def sighting_params
