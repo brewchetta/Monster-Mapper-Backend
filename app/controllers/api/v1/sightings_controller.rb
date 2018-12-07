@@ -21,7 +21,8 @@ class Api::V1::SightingsController < ApplicationController
   # End create
 
   def update
-    @sighting = Sighting.update(sighting_params)
+    @sighting = Sighting.find_by(id: params[:id])
+    @sighting.update(sighting_params)
     render json: @sighting, status: :ok
   end
   # End update
