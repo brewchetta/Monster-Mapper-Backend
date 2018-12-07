@@ -8,6 +8,7 @@ puts 'Finding archetypes'
     giant = Monster.create(name: 'Giant')
     demon = Monster.create(name: 'Demon')
     mutant = Monster.create(name: 'Mutant')
+    alien = Monster.create(name: 'Alien')
 puts 'Archetypes found'
 
 puts 'Finding spooky stuff'
@@ -32,5 +33,9 @@ puts 'Finding spooky stuff'
     s10 = Sighting.create(entity: 'mummy', image: 'https://media2.giphy.com/media/3ohs4gdLoYXudOyP7i/giphy.gif', lat: '40.78171287235875', long: '-73.97294148802759', description: 'Kinda dry, useful if you run out of toilet paper.', monster_id: undead.id)
 
     s11 = Sighting.create(entity: 'gozer', image: 'https://i.imgur.com/PRN3pDr.gif', lat: '40.77175608045582', long: '-73.97926940582693', description: ' Ancient, ultra-powerful, malignant entity from another dimension who was summoned to New York City to destroy the world.', monster_id: demon.id)
+
+    s12 = Sighting.create(entity: 'e.t.', image: 'https://media0.giphy.com/media/3XGg4LCmGpe0BifHFL/giphy.gif?cid=3640f6095c0a946b7a482f53679a1fbd', lat: '40.77079261071193', long: '-73.9726135879755', description: "Wants to phone home. Really likes Reese's Pieces.", monster_id: alien.id)
+
+    s13 = Sighting.create(entity: 'loch ness', image: 'https://media3.giphy.com/media/gOkkCfEjtscjC/giphy.gif', lat: '40.78574138592765', long: '-73.9601681381464', description: 'Could have sworn this was the Loch Ness monster, but upon closer inspection...', monster_id: giant.id)
 
 puts 'Spooky stuff found'
