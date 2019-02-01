@@ -1,5 +1,7 @@
 # Monster Mapper Backend
 
+This is the backend server and database for the Monster Mapper app.
+
 ## Technology
 
 * Ruby 2.3.3
